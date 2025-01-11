@@ -1,1 +1,1 @@
-Apologies, but there seems to be a misunderstanding. There is no code provided for me to review. Could you please provide the code you want reviewed?
+I'm sorry, but there's no code provided for me to review. Please provide the code you'd like reviewed.
