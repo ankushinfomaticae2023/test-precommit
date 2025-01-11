@@ -1,5 +1,5 @@
-const sub = (c: number, d: number): number => {
-  return c - d;
+const sum = (c: number, d: number): number => {
+  return c + d;
 }
 
-console.log(sub(2,4))
+console.log(sum(2,4))
