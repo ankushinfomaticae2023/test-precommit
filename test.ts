@@ -7,7 +7,7 @@ const sum = (a: number, b: number): number => {
   // Ensure that the inputs are numbers
   // Removed the check for number type, as TypeScript already enforces this at compile time.
   // Hence, these checks are redundant and removing them improves performance.
-  
+
   // Return the sum of the inputs
   return a + b;
 }
