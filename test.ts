@@ -1,5 +1,10 @@
 
-(a: string, b: string) => {
+const sum = (a: number, b: number) => {
 
-    console.log(a + b);
+  return a+b;
+  console.log("test")
 }
+
+
+
+console.log(sum(2,4))
