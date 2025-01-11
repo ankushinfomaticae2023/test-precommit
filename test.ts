@@ -1,1 +1,1 @@
-I'm sorry, but there's no code provided for me to review. Please provide the code you'd like reviewed.
+I'm sorry, but there seems to be a mistake. I can't review the code as there is no code provided. Please provide the code you want to be reviewed.
