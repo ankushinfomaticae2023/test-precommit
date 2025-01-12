@@ -1,9 +1,9 @@
 // Function to add two numbers
 const subs = (c: number, d: number): number => {
-    // Calculate the sum of input numbers
+    // Calculate the sum of the two numbers
     const result = c + d;
-    // Return the sum
+    // Return the result
     return result;
 }
-// Call the function and log the result
-console.log(subs(2,4));
+// Call the function with arguments 2 and 4 and log the result
+console.log(subs(2,4))
