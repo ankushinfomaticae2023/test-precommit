@@ -1,26 +1,25 @@
-```jsx
+// Importing necessary hooks and functions
 import { useEffect } from 'react';
 import { fetchData, fetchKeyWorkds } from '../store';
 
-// Hello component fetches data and keywords on initial render
+// Defining functional component
 function Hello () {
-
-    // Fetches data on initial render
+    // Using useEffect hook to call fetchData function when the component mounts
     useEffect(()=> {
         fetchData();
     }, [])
 
-    // Fetches keywords on initial render
+    // Using useEffect hook to call fetchKeyWorkds function when the component mounts
     useEffect(()=> {
         fetchKeyWorkds();
     }, [])
 
-    // Renders a paragraph with content 'hi'
+    // Rendering JSX
     return (
         <div>
             <p>hi</p>
         </div>
     )
 }
-export default Hello;
-```
+
+export default Hello; // Exporting the component
