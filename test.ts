@@ -1,5 +1,6 @@
-const sum = (c: number, d: number): number => {
-  return c + d;
+const sub = (c: number, d: number): number => {
+  const result = c - d;
+  return result;
 }
 
-console.log(sum(2,4))
+console.log(sub(2,4))
