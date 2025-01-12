@@ -2,26 +2,24 @@
 import { useEffect } from 'react';
 import { fetchData, fetchKeyWorkds } from '../store';
 
-// Hello component fetches data and keywords from the store
+// Hello component responsible for fetching data and keywords
 function Hello () {
-
-    // Fetch data from the store when the component is mounted
-    useEffect(()=> {
+    // useEffect hook to fetch data on component mount
+    useEffect(() => {
         fetchData();
-    }, [])
+    }, []);
 
-    // Fetch keywords from the store when the component is mounted
-    useEffect(()=> {
+    // useEffect hook to fetch keywords on component mount
+    useEffect(() => {
         fetchKeyWorkds();
-    }, [])
+    }, []);
 
     return (
-        // Display a simple greeting message
         <div>
             <p>hi</p>
         </div>
     )
 }
 
-export default Hello; // Export the Hello component to be used in other parts of the application
+export default Hello;
 ```
