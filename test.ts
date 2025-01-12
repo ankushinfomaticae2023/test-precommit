@@ -1,11 +1,12 @@
-// Function to perform subtraction operation
+```typescript
+// Function to subtract two numbers
 const sub = (c: number, d: number): number => {
-  // Calculate the result
+  // Subtract d from c and store the result
   const result = c - d;
   
   // Return the result
   return result;
 }
 
-// Test the function
 console.log(sub(2,4))
+```
