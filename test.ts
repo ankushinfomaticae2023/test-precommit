@@ -5,6 +5,10 @@ const sub = (c: number, d: number): number => {
   console.log("test");
   console.log("test");
   console.log("test");
+  console.log("test");
+  console.log("test");
+  console.log("test");
+  console.log("test");
   
 }
 
