@@ -1,7 +1,10 @@
 // Function to calculate the sum of two numbers
 const sum = (c: number, d: number): number => {
-    const result = c + d; // Adding the two numbers and storing the result
-    return result; // Returning the result
+    // Calculate the sum of the two input numbers
+    const result = c + d;
+    // Return the result
+    return result;
 }
 
-console.log(sum(2,4)) // Calling the function and logging the result
+// Call the sum function and log the result
+console.log(sum(2,4))
